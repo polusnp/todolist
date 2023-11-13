@@ -1,8 +1,10 @@
+import { FcTodoList } from "react-icons/fc"
 import styles from "./Todo.module.css"
 
 function Todo({ todo, index, deleteTodo }) {
   return (
     <div onDoubleClick={() => deleteTodo(index)} className={styles.todo}>
+      <FcTodoList className={styles.todoIcon} />
       <div className={styles.todoText}>{todo}</div>
     </div>
   )
