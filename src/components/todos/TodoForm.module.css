@@ -12,22 +12,6 @@
   width: 70%;
   height: 30px;
   font-size: 1.3rem;
-}
-
-.todoFormContainer button {
-  margin-left: 20px;
-  height: 50px;
-  cursor: pointer;
-  background-color: chocolate;
-  font-size: 1.5rem;
-}
-
-.todoFormContainer button:hover {
-  background-color: rgb(240, 150, 155);
-}
-
-.todoFormContainer input,
-.todoFormContainer button {
   padding: 10px 15px;
   border: none;
   border-radius: 5px;
