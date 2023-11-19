@@ -2,6 +2,7 @@ import { useState } from "react"
 import { v4 as uuidv4 } from "uuid"
 import TodoForm from "./components/todos/TodoForm"
 import TodoList from "./components/todos/TodoList"
+import TodoActions from "./components/todos/TodosActions"
 import "./App.css"
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
     <div className="App">
       <h1>Todo App</h1>
       <TodoForm addTodo={addTodoHandler} />
+      <TodoActions />
       <TodoList
         todos={todos}
         deleteTodo={deleteTodoHandler}
